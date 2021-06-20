@@ -170,4 +170,3 @@ $(function () {
     // 初始化加载 tooltipped.
     $('.tooltipped').tooltip();
 });
-<script src="//code.tidio.co/ltqsx8fbgha3rjlb5arnd07gzt1avtrz.js" async></script>
