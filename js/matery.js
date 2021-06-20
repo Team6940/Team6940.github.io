@@ -125,15 +125,15 @@ $(function () {
     });
 
     /*监听滚动条位置*/
-    //let $nav = $('#headNav');
-    //let $backTop = $('.top-scroll');
+    let $nav = $('#headNav');
+    let $backTop = $('.top-scroll');
     // 当页面处于文章中部的时候刷新页面，因为此时无滚动，所以需要判断位置,给导航加上绿色。
-    //showOrHideNavBg($(window).scrollTop());
-    //$(window).scroll(function () {
+    showOrHideNavBg($(window).scrollTop());
+    $(window).scroll(function () {
         /* 回到顶部按钮根据滚动条的位置的显示和隐藏.*/
-    //    let scroll = $(window).scrollTop();
-    //    showOrHideNavBg(scroll);
-    //});
+        let scroll = $(window).scrollTop();
+        showOrHideNavBg(scroll);
+    });
 
     function showOrHideNavBg(position) {
         let showPosition = 100;
