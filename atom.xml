@@ -6,7 +6,7 @@
   <link href="https://team6940.github.io/atom.xml" rel="self"/>
   
   <link href="https://team6940.github.io/"/>
-  <updated>2021-06-14T03:03:37.216Z</updated>
+  <updated>2021-06-23T14:27:03.002Z</updated>
   <id>https://team6940.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>6940详细网站搭建教程</title>
+    <link href="https://team6940.github.io/2021/06/23/6940-xiang-xi-wang-zhan-da-jian-jiao-cheng/"/>
+    <id>https://team6940.github.io/2021/06/23/6940-xiang-xi-wang-zhan-da-jian-jiao-cheng/</id>
+    <published>2021-06-23T14:13:28.000Z</published>
+    <updated>2021-06-23T14:27:03.002Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="网站搭建" scheme="https://team6940.github.io/tags/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
