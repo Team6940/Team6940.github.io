@@ -8,7 +8,7 @@
       <link href="/2021/06/23/6940-xiang-xi-wang-zhan-da-jian-jiao-cheng/"/>
       <url>/2021/06/23/6940-xiang-xi-wang-zhan-da-jian-jiao-cheng/</url>
       
-        <content type="html"><![CDATA[<p>这是一篇关于如何使用6940网站的详细教程，建议队内程序组和宣传组的同学看一下</p><h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><ul><li>首先，我们的网站是用hexo + Github进行搭建的，网站的域名是：<a href="https://team6940.github.io/">https://team6940.github.io/</a></li><li>在使用的过程中也可以参考一下<a href="https://github.com/blinkfox/hexo-theme-matery/blob/develop/README_CN.md">官网的文档说明</a></li></ul><h2 id="结构"><a href="#结构" class="headerlink" title="结构"></a>结构</h2><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></tbody></table></figure>]]></content>
+        <content type="html"><![CDATA[<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><ul><li>首先，我们的网站是用hexo + Github进行搭建的，网站的域名是：<a href="https://team6940.github.io/">https://team6940.github.io/</a></li><li>在使用的过程中也可以参考一下<a href="https://github.com/blinkfox/hexo-theme-matery/blob/develop/README_CN.md">官网的文档说明</a></li></ul><h2 id="结构"><a href="#结构" class="headerlink" title="结构"></a>结构</h2><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></tbody></table></figure>]]></content>
       
       
       
