@@ -6,10 +6,33 @@
   <link href="https://team6940.github.io/atom.xml" rel="self"/>
   
   <link href="https://team6940.github.io/"/>
-  <updated>2021-07-04T08:42:30.280Z</updated>
+  <updated>2021-07-07T10:30:19.131Z</updated>
   <id>https://team6940.github.io/</id>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>6940网站搭建教程 ———— 工具篇</title>
+    <link href="https://team6940.github.io/2021/07/04/6940-wang-zhan-da-jian-jiao-cheng-3/"/>
+    <id>https://team6940.github.io/2021/07/04/6940-wang-zhan-da-jian-jiao-cheng-3/</id>
+    <published>2021-07-04T10:30:57.000Z</published>
+    <updated>2021-07-07T10:30:19.131Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;vscode&quot;&gt;&lt;a href=&quot;#vscode&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="网站搭建" scheme="https://team6940.github.io/tags/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/"/>
+    
+  </entry>
   
   <entry>
     <title>6940网站搭建教程 ———— 环境搭建(基础篇)</title>
@@ -25,29 +48,6 @@
         
     <summary type="html">&lt;h2 id=&quot;安装前的准备工作&quot;&gt;&lt;a href=&quot;#安装前的准备工作&quot; class=&quot;headerlink&quot; title=&quot;安装前的准备工作&quot;&gt;&lt;/a&gt;安装前的准备工作&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;一个&lt;a</summary>
-        
-      
-    
-    
-    
-    
-    <category term="网站搭建" scheme="https://team6940.github.io/tags/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>6940网站搭建教程 ———— 工具篇</title>
-    <link href="https://team6940.github.io/2021/07/03/6940-wang-zhan-da-jian-jiao-cheng-3/"/>
-    <id>https://team6940.github.io/2021/07/03/6940-wang-zhan-da-jian-jiao-cheng-3/</id>
-    <published>2021-07-03T13:03:57.000Z</published>
-    <updated>2021-07-04T09:17:34.918Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;vscode&quot;&gt;&lt;a href=&quot;#vscode&quot; class=&quot;headerlink&quot;</summary>
         
       
     
