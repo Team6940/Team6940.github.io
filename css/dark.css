@@ -87,3 +87,8 @@ body.dark .my-projects .info .info-title a {
 .swbk .label {
     color: currentColor
 }
+
+/*给暗黑模式下的.test添加字体颜色变红样式*/
+body.dark .test{
+    color: red !important;
+}
