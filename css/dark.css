@@ -111,6 +111,7 @@ body.dark .moments-item-info .moments-item-time,body.dark #info_user_pool .momen
 body.dark .card-content .categories-title,body.dark .card-content .de,body.dark .statis .name,body.dark .supervise_details,body.dark .panel-info{
     color: rgba(255, 255, 255, 0.85);
 
+
 /*给暗黑模式下的.test添加字体颜色变红样式*/
 body.dark .test{
     color: red !important;
