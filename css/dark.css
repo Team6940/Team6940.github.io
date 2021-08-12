@@ -88,6 +88,11 @@ body.dark .my-projects .info .info-title a {
     color: currentColor
 }
 
+/*center字样颜色*/
+body.dark center{
+    color: aliceblue
+}
+
 /* 统计图滤镜 */
 body.dark #post-calendar,
 body.dark #category-radar,
