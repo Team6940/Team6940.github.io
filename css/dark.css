@@ -88,6 +88,29 @@ body.dark .my-projects .info .info-title a {
     color: currentColor
 }
 
+/* 统计图滤镜 */
+body.dark #post-calendar,
+body.dark #category-radar,
+body.dark #tags-chart,
+body.dark #categories-chart,
+body.dark #posts-chart {
+    filter: invert(1);
+}
+
+/* 字体颜色变灰白色 */
+body.dark .fas, body.dark .title, body.dark .row .text, body.dark article .article-content .summary, body.dark .card .card-image .card-title,
+body.dark .fa-moon-o:before, body.dark .fa-lightbulb:before, body.dark article .article-tags .chip, body.dark .chip-container .tag-title,
+body.dark div.jqcloud a, body.dark .friends-container .tag-title, body.dark .frind-ship .title h1, body.dark .card .card-content p,
+body.dark .v[data-class=v] .vcount, body.dark .v[data-class=v] .vcount .vnum, body.dark pre code, body.dark h1, body.dark h2,
+body.dark h3, body.dark h4, body.dark h5, body.dark h6, body.dark li, body.dark p, body.dark header .side-nav .mobile-head .logo-name,
+body.dark header .side-nav .mobile-head .logo-desc, body.dark header .side-nav .menu-list a, body.dark .bg-cover .post-title,
+body.dark a body.dark table,body.dark .biaotis span,.dark tbody,body.dark .category-content a,
+body.dark .publish-info .post-category,body.dark .publish-info .publish-date,
+body.dark .card .toc-title,body.dark .valine-card .comment_headling,body.dark #artDetail .post-info .post-date,body.dark .post-info .info-break-policy,
+body.dark .moments-item-info .moments-item-time,body.dark #info_user_pool .moments_chart,body.dark .moments_load_button,
+body.dark .card-content .categories-title,body.dark .card-content .de,body.dark .statis .name,body.dark .supervise_details,body.dark .panel-info{
+    color: rgba(255, 255, 255, 0.85);
+
 /*给暗黑模式下的.test添加字体颜色变红样式*/
 body.dark .test{
     color: red !important;
