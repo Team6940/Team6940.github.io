@@ -93,6 +93,11 @@ body.dark center{
     color: aliceblue
 }
 
+/*转载申明变白色*/
+body.dark #artDetail .reprint-info {
+    color: aliceblue;
+}
+
 /* 统计图滤镜 */
 body.dark #post-calendar,
 body.dark #category-radar,
