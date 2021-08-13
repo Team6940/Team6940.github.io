@@ -1206,9 +1206,9 @@ A: 简而言之，就是给你本地的图片分配一个网址，这样我们�
 
             <!-- 运行天数提醒. -->
             
-                <span id="sitetime"> Loading ...</span>
+                <span id="sitetime">载入运行时间...</span>
                 <script>
-                    var calcSiteTime = function () {
+                    function siteTime() {
                         var seconds = 1000;
                         var minutes = seconds * 60;
                         var hours = minutes * 60;
@@ -1232,32 +1232,22 @@ A: 简而言之，就是给你本地的图片分配一个网址，这样我们�
                         var diff = t2 - t1;
                         var diffYears = Math.floor(diff / years);
                         var diffDays = Math.floor((diff / days) - diffYears * 365);
-
-                        // 区分是否有年份.
-                        var language = 'zh-CN';
-                        if (startYear === String(todayYear)) {
+                        var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+                        var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) /
+                            minutes);
+                        var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours -
+                            diffMinutes * minutes) / seconds);
+                        if (startYear == todayYear) {
                             document.getElementById("year").innerHTML = todayYear;
-                            var daysTip = 'This site has been running for ' + diffDays + ' days';
-                            if (language === 'zh-CN') {
-                                daysTip = '本站已运行 ' + diffDays + ' 天';
-                            } else if (language === 'zh-HK') {
-                                daysTip = '本站已運行 ' + diffDays + ' 天';
-                            }
-                            document.getElementById("sitetime").innerHTML = daysTip;
+                            document.getElementById("sitetime").innerHTML = "The site has been running for " + diffDays + " y " + diffHours +
+                                " h " + diffMinutes + " m " + diffSeconds + " s";
                         } else {
                             document.getElementById("year").innerHTML = startYear + " - " + todayYear;
-                            var yearsAndDaysTip = 'This site has been running for ' + diffYears + ' years and '
-                                + diffDays + ' days';
-                            if (language === 'zh-CN') {
-                                yearsAndDaysTip = '本站已运行 ' + diffYears + ' 年 ' + diffDays + ' 天';
-                            } else if (language === 'zh-HK') {
-                                yearsAndDaysTip = '本站已運行 ' + diffYears + ' 年 ' + diffDays + ' 天';
-                            }
-                            document.getElementById("sitetime").innerHTML = yearsAndDaysTip;
+                            document.getElementById("sitetime").innerHTML = "The site has been running for " + diffYears + " y " + diffDays +
+                                " d " + diffHours + " h " + diffMinutes + " m " + diffSeconds + " s";
                         }
                     }
-
-                    calcSiteTime();
+                    setInterval(siteTime, 1000);
                 </script>
             
             <br>
@@ -1287,6 +1277,10 @@ A: 简而言之，就是给你本地的图片分配一个网址，这样我们�
     </a>
 
 </div>
+        
+            <img style="height:67px;cursor:pointer" src="https://pic.imgdb.cn/item/611655e45132923bf84db1ea.jpg" alt="cloudfare"
+                 onclick="location.href='https://www.cloudflare.com/zh-cn/">
+        
     </div>
 </footer>
 
