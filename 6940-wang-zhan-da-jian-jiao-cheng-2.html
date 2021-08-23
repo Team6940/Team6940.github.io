@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="6940网站搭建教程 ———— 创作篇, FRC Robot Team6940">
+    <meta name="keywords" content="6940网站搭建教程 ———— 环境搭建(基础篇), FRC Robot Team6940">
     <meta name="description" content="A high-school robotics team from No.2 High School Of East China Normal University Zizhu Campus.">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>6940网站搭建教程 ———— 创作篇 | Violet Z -Team6940</title>
+    <title>6940网站搭建教程 ———— 环境搭建(基础篇) | Violet Z -Team6940</title>
     <link rel="icon" type="image/jpeg" href="/6940.jpg">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/Team6940/Team6940.github.io/libs/awesome/css/all.css">
@@ -370,12 +370,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://pic.imgdb.cn/item/610a3c1b5132923bf826c1f4.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://pic.imgdb.cn/item/60e12e045132923bf8b86e9a.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">6940网站搭建教程 ———— 创作篇</h1>
+                    <h1 class="description center-align post-title">6940网站搭建教程 ———— 环境搭建(基础篇)</h1>
                 </div>
             </div>
         </div>
@@ -426,7 +426,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-08-04
+                    2021-07-03
                 </div>
                 
 
@@ -440,14 +440,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    931
+                    840
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    3 分
+                    2 分
                 </div>
                 
 
@@ -470,123 +470,59 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p><font size="5"><strong>在看本片文章前，请大家先阅读<a href="">6940网站搭建教程 ———— 环境搭建(基础篇)</a>。</strong></font></p>
-<h2 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h2><ul>
-<li><p><font size="4">打开VsCode</font><br><img src="https://pic.imgdb.cn/item/610a4f9f5132923bf873827e.jpg"></p>
+                <h2 id="安装前的准备工作"><a href="#安装前的准备工作" class="headerlink" title="安装前的准备工作"></a>安装前的准备工作</h2><ul>
+<li>一个<a target="_blank" rel="noopener" href="https://github.com/">Github</a>账号(注册方法比较简单，有问题自行百度，或者<a target="_blank" rel="noopener" href="https://github.com/Team6940/Team6940.github.io/issues">Github</a>上直接issue)</li>
+<li><a target="_blank" rel="noopener" href="https://desktop.github.com/">Github Desktop</a></li>
+<li>一个markdown编辑器，建议使用<a target="_blank" rel="noopener" href="https://code.visualstudio.com/">Vscode</a>,如果以后想从事FRC程序组工作的话也可以直接下载<a target="_blank" rel="noopener" href="https://github.com/wpilibsuite/allwpilib/releases">WPILIB</a></li>
+</ul>
+<h2 id="分布式操作"><a href="#分布式操作" class="headerlink" title="分布式操作"></a>分布式操作</h2><h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><ul>
+<li>简单来说，这个功就是能让多人同时在一个项目上工作。一般来说，我们只需要简单的<code>Pull</code>，再<code>Push</code>一下就行。为了简化大家的操作，这里我使用<code>Github Desktop</code>去实现这个功能，当然，用<code>Git</code>也可以，只不过后者基本都是命令行操作(可以装逼，但其实大佬都是用<code>Git</code>)</li>
+</ul>
+<h3 id="方法介绍"><a href="#方法介绍" class="headerlink" title="方法介绍"></a>方法介绍</h3><ul>
+<li><p>首先，当你创建好一个Github账号后，把你用户名发给我(QQ,微信等渠道都行),我会邀请你进入<a target="_blank" rel="noopener" href="https://github.com/Team6940">FRC Team 6940</a>这个组织。</p>
 </li>
-<li><p><font size="4">点击进入<code>/source/_posts</code>文件夹</font></p>
+<li><p>然后，双击打开桌面上的<code>Github Desktop</code><br><img src="https://pic.imgdb.cn/item/60e0643e5132923bf88d1504.jpg"></p>
 </li>
 </ul>
-<p> <img src="https://pic.imgdb.cn/item/610b4b165132923bf84c13a2.jpg"></p>
+<p>按照提示进行登录，将<a target="_blank" rel="noopener" href="https://github.com/Team6940/6940web">6940web</a>克隆(<code>clone</code>)到本地的文件夹(这里建议专门新建一个文件夹作为自己的工作区)<br><img src="https://pic.imgdb.cn/item/60e066985132923bf89afed9.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/60e066985132923bf89afe66.jpg"></p>
+<p>图中的<code>Local Path</code>是你存放这个项目的文件夹的位置</p>
 <ul>
-<li><font size="4">在<code>/source/_posts/</code>下右键，选择<code>新建文件</code></font></li>
+<li><p>选择好之后，点击<code>Clone</code>即可，如果提示错误的话，多试几次，或者爬个梯子，搞个加速啥的，懂得都懂</p>
+</li>
+<li><p>完成之后，进入<code>vscode</code>，点击图示位置中的<code>打开文件夹</code>,选择刚才你<code>Clone</code>下来的文件夹。</p>
+</li>
 </ul>
-<p><img src="https://pic.imgdb.cn/item/610b4c5c5132923bf84fcba2.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/60e068565132923bf8a63b80.jpg"></p>
+<p>会看到下图所示的一个目录，其中我们主要写文章是在<code>/source/_posts/</code>下进行的。具体的操作步骤将在下一个教程中详细介绍，敬请期待。</p>
+<p><img src="https://pic.imgdb.cn/item/60e174165132923bf8db3e0f.jpg"></p>
 <ul>
-<li><font size="4">输入文章的名字，但注意一定要在后面加上<code>.md</code>这个后缀，表示他是个<code>markdown</code>文件</font></li>
+<li>当你新写了一篇文章后，回到<code>Github Desktop</code>,这里会出现你更改的记录一个增加或删除了哪些内容</li>
 </ul>
-<p><img src="https://pic.imgdb.cn/item/610b4d145132923bf8519769.jpg"></p>
+<p><img src="https://pic.imgdb.cn/item/60e069e75132923bf8b042a1.jpg"></p>
 <ul>
-<li><font size="4">在随便在<code>/source/_posts/</code>目录下随便选一个<code>.md</code>文件，打开，鼠标滚到最上面，把下图中用红笔圈起来的地方复制，就是从<code>---</code>到<code>---</code>的这一段内容，再黏贴到你刚才新建的<code>md</code>文件的最上部，比如我刚才新建了一个<code>我就示范下.md</code>的文件，这时候它还是个空的文件，我们只需要把刚才复制的东西黏贴就行了。</font></li>
+<li><p>这个时候，你需要选择一个你改过的文件，比如我现在是5个文件全都选中了，然后，在左下角的<code>Commit</code>框里填写一些类似<code>注释</code>的话，主要可以说一下你改了些啥。</p>
+</li>
+<li><p>填写好之后，点击<strong>Commit to main</strong>这个按钮即可<br>然后你会发现下图框出的位置变成<code>Push origin</code>了，点击即可将这个更改上传到你的repo了。<br><img src="https://pic.imgdb.cn/item/60e06afc5132923bf8b7559a.jpg"></p>
+</li>
 </ul>
-<p><img src="https://pic.imgdb.cn/item/610b4e015132923bf853fdcd.jpg"></p>
+<p>但是，这个时候，Github可能会报错，它显示你没有权限更改。并且会提示你先把6940web这个仓库fork下来，然后再提交到你fork下来的那个仓库中。</p>
 <ul>
-<li><font size="4">这个时候，我们还要修改一下刚才复制的内容里的一些东西，先看一下官方给的说明：</font></li>
+<li><p>点击框出的部分<br><img src="https://pic.imgdb.cn/item/60e06ea75132923bf8d0a0a9.jpg"></p>
+</li>
+<li><p>按照图示选择<code>Continue</code>即可<br><img src="https://pic.imgdb.cn/item/60e06f035132923bf8d31909.jpg"></p>
+</li>
+<li><p>最后，再点击右上角的<code>Push origin</code>即可</p>
+</li>
+<li><p>还有一点，就是，每次你在工作之前，都点一下右上角的<code>Fetch Origin</code>,从上游仓库把别人对仓库的更行<code>Pull</code>下来。</p>
+</li>
 </ul>
-<table>
-<thead>
-<tr>
-<th>配置选项</th>
-<th>默认值</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>title</td>
-<td><code>Markdown</code> 的文件标题</td>
-<td>文章标题，强烈建议填写此选项</td>
-</tr>
-<tr>
-<td>date</td>
-<td>文件创建时的日期时间</td>
-<td>发布时间，强烈建议填写此选项，且最好保证全局唯一</td>
-</tr>
-<tr>
-<td>author</td>
-<td>根 <code>_config.yml</code> 中的 <code>author</code></td>
-<td>文章作者</td>
-</tr>
-<tr>
-<td>img</td>
-<td><code>featureImages</code> 中的某个值</td>
-<td>文章特征图，推荐使用图床(腾讯云、七牛云、又拍云等)来做图片的路径.如: <code>http://xxx.com/xxx.jpg</code></td>
-</tr>
-<tr>
-<td>top</td>
-<td><code>true</code></td>
-<td>推荐文章（文章是否置顶），如果 <code>top</code> 值为 <code>true</code>，则会作为首页推荐文章</td>
-</tr>
-<tr>
-<td>hide</td>
-<td><code>false</code></td>
-<td>隐藏文章，如果<code>hide</code>值为<code>true</code>，则文章不会在首页显示</td>
-</tr>
-<tr>
-<td>cover</td>
-<td><code>false</code></td>
-<td><code>v1.0.2</code>版本新增，表示该文章是否需要加入到首页轮播封面中</td>
-</tr>
-<tr>
-<td>coverImg</td>
-<td>无</td>
-<td><code>v1.0.2</code>版本新增，表示该文章在首页轮播封面需要显示的图片路径，如果没有，则默认使用文章的特色图片</td>
-</tr>
-<tr>
-<td>password</td>
-<td>无</td>
-<td>文章阅读密码，如果要对文章设置阅读验证密码的话，就可以设置 <code>password</code> 的值，该值必须是用 <code>SHA256</code> 加密后的密码，防止被他人识破。前提是在主题的 <code>config.yml</code> 中激活了 <code>verifyPassword</code> 选项</td>
-</tr>
-<tr>
-<td>toc</td>
-<td><code>true</code></td>
-<td>是否开启 TOC，可以针对某篇文章单独关闭 TOC 的功能。前提是在主题的 <code>config.yml</code> 中激活了 <code>toc</code> 选项</td>
-</tr>
-<tr>
-<td>mathjax</td>
-<td><code>false</code></td>
-<td>是否开启数学公式支持 ，本文章是否开启 <code>mathjax</code>，且需要在主题的 <code>_config.yml</code> 文件中也需要开启才行</td>
-</tr>
-<tr>
-<td>summary</td>
-<td>无</td>
-<td>文章摘要，自定义的文章摘要内容，如果这个属性有值，文章卡片摘要就显示这段文字，否则程序会自动截取文章的部分内容作为摘要</td>
-</tr>
-<tr>
-<td>categories</td>
-<td>无</td>
-<td>文章分类，本主题的分类表示宏观上大的分类，只建议一篇文章一个分类</td>
-</tr>
-<tr>
-<td>tags</td>
-<td>无</td>
-<td>文章标签，一篇文章可以多个标签</td>
-</tr>
-<tr>
-<td>keywords</td>
-<td>文章标题</td>
-<td>文章关键字，SEO 时需要</td>
-</tr>
-<tr>
-<td>reprintPolicy</td>
-<td>cc_by</td>
-<td>文章转载规则， 可以是 cc_by, cc_by_nd, cc_by_sa, cc_by_nc, cc_by_nc_nd, cc_by_nc_sa, cc0, noreprint 或 pay 中的一个</td>
-</tr>
-</tbody></table>
-<ul>
-<li><font size="4">具体的说明，大家应该都没什么问题，上面写的也非常详细了。那么我们主要要改的其实就只有几个地方，比如<code>title</code>,<code>date</code>（如果直接用<code>Git Bash</code>操作的话会自动生成，但是那个还要安装<code>Hexo</code>,<code>Node.js</code>，并且也需要会一些命令行，因此这边并不推荐，不过感兴趣的可以自己研究）,<code>author</code>,<code>summary</code>,<code>img</code>,<code>tags</code></font></li>
-<li><font size="4">改的时候还有一点要注意，就是任何<code>: </code>后面都要加一个<kbd>space</kbd>(空格)，不然到时候我这边<code>hexo g</code>会报错。一定要注意！！！</font></li>
-</ul>
-<p><font size="6">到这之后，就可以开始创作自己的文章了！</font></p>
+<p>完成上述操作之后，还有一个很重要的步骤，就是你要把你修改的内容Pr给我，具体操作如下</p>
+<p>1，打开浏览器，进入到你的Github主页，点击你刚才fork的repo，<br><img src="https://pic.imgdb.cn/item/60e070165132923bf8db06df.jpg"></p>
+<p>2，点进去之后，再点击<code>Pull Request</code>,然后点<code>New pull request</code><br><img src="https://pic.imgdb.cn/item/60e070455132923bf8dc5b33.jpg"></p>
+<p>3,点击<code>Create pull request</code><br><img src="https://pic.imgdb.cn/item/60e071025132923bf8e1b7e4.jpg"></p>
+<p>4, 填写相关信息，最后提交即可<br><img src="https://pic.imgdb.cn/item/60e070da5132923bf8e091e2.jpg"></p>
+<p>5，提交完分支之后，我会进一步审核，主要就是看有没有冲突，如果没有，我会把你的<code>request</code><strong>merge</strong>到原始仓库中，这样一个完整的流程也就结束了。</p>
 
                 
             </div>
@@ -613,7 +549,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://www.6940violetz.top/2021/08/04/6940-wang-zhan-da-jian-jiao-cheng-4/">https://www.6940violetz.top/2021/08/04/6940-wang-zhan-da-jian-jiao-cheng-4/</a>
+                    <a href="https://www.6940violetz.top/6940-wang-zhan-da-jian-jiao-cheng-2.html">https://www.6940violetz.top/6940-wang-zhan-da-jian-jiao-cheng-2.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -968,55 +904,7 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/08/08/di-er-jie-frc-ji-zhu-jiao-liu-hui/">
-                    <div class="card-image">
-                        
-                        <img src="https://pic.imgdb.cn/item/610f9d635132923bf85b80fc.jpg" class="responsive-img" alt="第二届FRC技术交流会实录">
-                        
-                        <span class="card-title">第二届FRC技术交流会实录</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            2021.7.29第二届技术交流会顺利落幕，我们下次再见（转载6353公众号）
-                        
-                    </div>
-                    <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-08-08
-                        </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/%E6%8A%80%E6%9C%AF%E4%BA%A4%E6%B5%81/" class="post-category">
-                                    技术交流
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/%E6%8A%80%E6%9C%AF%E4%BA%A4%E6%B5%81/">
-                        <span class="chip bg-color">技术交流</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/2021/07/04/6940-wang-zhan-da-jian-jiao-cheng-3/">
+                <a href="/6940-wang-zhan-da-jian-jiao-cheng-3.html">
                     <div class="card-image">
                         
                         <img src="https://pic.imgdb.cn/item/60e17c7e5132923bf80b10e3.jpg" class="responsive-img" alt="6940网站搭建教程 ———— 工具篇">
@@ -1031,8 +919,56 @@
                         
                     </div>
                     <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-07-04
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/" class="post-category">
+                                    网站搭建
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/">
+                        <span class="chip bg-color">网站搭建</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/6940-xiang-xi-wang-zhan-da-jian-jiao-cheng-1.html">
+                    <div class="card-image">
+                        
+                        <img src="https://pic.imgdb.cn/item/60d34636844ef46bb2de8bf3.jpg" class="responsive-img" alt="6940详细网站搭建教程 ———环境安装篇(进阶版)">
+                        
+                        <span class="card-title">6940详细网站搭建教程 ———环境安装篇(进阶版)</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            这是一篇关于如何使用6940网站的详细教程，建议队内程序组和宣传组的同学看一下
+                        
+                    </div>
+                    <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-07-04
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-06-23
                             </span>
                         <span class="publish-author">
                             
